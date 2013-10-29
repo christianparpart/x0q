@@ -9,7 +9,7 @@ Links against x0 http server api to expose HTTP API.
       payload                         queue payload 
 
     GET /:queue                     Pops an item from the queue
-      [Expect: item]                  optionally indicate, that this is a blocking (instead non-blocking) request.
+      [Expect: item]                  optionally indicate, that this is blocking (instead non-blocking).
 
     POST /:queue/clear              Clears all items in the queue
 
